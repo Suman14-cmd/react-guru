@@ -16,7 +16,7 @@ const totalProducts = products.reduce((acc, product) => acc + product.price, 0);
 
   return (
     <>
-    <h1>Products</h1>
+    <h1>Products List</h1>
     <ul>
     {products.map((product) => (
       <li key={product.id}>
