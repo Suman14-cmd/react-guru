@@ -4,13 +4,14 @@ const App = () => {
 const [products, setProducts] = useState([])
 
 useEffect(() => {
-  fetch("/data.json")
-  .then((res) => res.json())
-  .then((data) => setProducts(data))
-  .catch((error) => console.error("fetching data error", error))
-}, [])
+  fetch(process.env.PUBLIC_URL + "/data.json")
+    .then((res) => res.json())
+    .then((data) => setProducts(data))
+    .catch((error) => console.error("Fetching data error:", error));
+}, []);
 
-const totalProducts = products.reduce((acc, product) => acc + product.price, 0)
+
+const totalProducts = products.reduce((acc, product) => acc + product.price, 0);
 // const conditionProd = products.filter((product) => product.price > 100)
 
   return (
