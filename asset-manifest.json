@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-guru/static/css/main.8653abdb.css",
+    "main.js": "/react-guru/static/js/main.70f49b6d.js",
+    "static/js/453.a0e398d9.chunk.js": "/react-guru/static/js/453.a0e398d9.chunk.js",
+    "index.html": "/react-guru/index.html",
+    "main.8653abdb.css.map": "/react-guru/static/css/main.8653abdb.css.map",
+    "main.70f49b6d.js.map": "/react-guru/static/js/main.70f49b6d.js.map",
+    "453.a0e398d9.chunk.js.map": "/react-guru/static/js/453.a0e398d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8653abdb.css",
+    "static/js/main.70f49b6d.js"
+  ]
+}
